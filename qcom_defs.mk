@@ -13,6 +13,7 @@ UM_4_19_FAMILY_BASE := kona lito
 UM_5_4_FAMILY := lahaina holi
 UM_5_10_FAMILY := taro parrot
 UM_5_15_FAMILY_BASE := kalama crow
+UM_6_1_FAMILY := pineapple
 
 # Conditionally modify the UM families based on TARGET_BOARD_SUFFIX and TARGET_BOARD_PLATFORM
 ifneq ($(filter $(UM_5_15_FAMILY_LEGACY),$(TARGET_BOARD_PLATFORM)),)
